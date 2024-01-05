@@ -1,8 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-.home-section{
+html {
+  scroll-behavior: smooth;
+}
+
+.button{
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 500;
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+h1 {
+  font-family: 'Inika', serif;
+}
+
+h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.home-section {
   background-image: url("./bg.svg");
   background-size: cover;
   background-repeat: no-repeat;
