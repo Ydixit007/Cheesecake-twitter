@@ -3,7 +3,7 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-html {
+* {
   scroll-behavior: smooth;
 }
 
@@ -28,4 +28,30 @@ h4 {
   background-image: url("./bg.svg");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.menu-section {
+  background-image: url("./bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #FFF8E1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6F4436CC;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #6A4028;
 }
